@@ -1,0 +1,128 @@
+{
+  "project": "Skyrim Neural Renderer",
+  "publication_state": "local mock-up; not published",
+  "draft_date": "2026-10-07",
+  "measurement_date": "2026-10-06",
+  "scope": "vanilla/AE Helgen at2560x1440, single neural feature; prototype, not production stability approval",
+  "gameplay_run_id": "20261006-173602-skyrim-core-dxl07-temporal-depth-motion",
+  "test_adapter": "NVIDIA GeForce RTX 4060 Ti",
+  "gameplay": {
+    "duration_seconds": 268.44,
+    "exit_code": 0,
+    "recorded_call_lower_bound": 9851,
+    "failed_calls_recorded": 0,
+    "skipped_calls_recorded": 0,
+    "captures": 8,
+    "resolution": [
+      2560,
+      1440
+    ],
+    "f8_visually_confirmed": true,
+    "quit_to_desktop_confirmed": true
+  },
+  "inputs": {
+    "source_depth": "DXGI_FORMAT_R24G8_TYPELESS (44)",
+    "neural_depth": "DXGI_FORMAT_R32_FLOAT (41)",
+    "motion": "DXGI_FORMAT_R16G16_FLOAT (34)",
+    "finite": true,
+    "parameter_getters_observed": true,
+    "private_device_match_observed": true,
+    "depth_neural_use_proven": false,
+    "motion_causal_effect_proven_in_fixture": true,
+    "direct_gpu_shader_reads_witnessed": false
+  },
+  "motion_reprojection_pairs": [
+    {
+      "previous": 7802,
+      "current": 7803,
+      "common_comparison_pixels": 2687668,
+      "best_hypothesis": "expected_uv",
+      "expected_improvement_over_zero": 0.5768687618730866,
+      "expected_beats_sign_and_scale_alternatives": true
+    },
+    {
+      "previous": 8041,
+      "current": 8042,
+      "common_comparison_pixels": 1665307,
+      "best_hypothesis": "expected_uv",
+      "expected_improvement_over_zero": 0.6127259215594444,
+      "expected_beats_sign_and_scale_alternatives": true
+    },
+    {
+      "previous": 8281,
+      "current": 8282,
+      "common_comparison_pixels": 16188,
+      "best_hypothesis": "expected_uv",
+      "expected_improvement_over_zero": 0.742810916924585,
+      "expected_beats_sign_and_scale_alternatives": true
+    },
+    {
+      "previous": 8521,
+      "current": 8522,
+      "common_comparison_pixels": 670659,
+      "best_hypothesis": "expected_uv",
+      "expected_improvement_over_zero": 0.6479819956445221,
+      "expected_beats_sign_and_scale_alternatives": true
+    }
+  ],
+  "gpu_sample_medians_ms": {
+    "neural": 17.591615676879883,
+    "optical_flow": 0.38736000657081604,
+    "snapshot_gpu_ms": 0.148656,
+    "conversion_gpu_ms": 0.198144,
+    "readback_copy_gpu_ms": 2.24
+  },
+  "gpu_measurement_limits": "Sample timestamps, not whole-frame incremental overhead. Readback scheduled once per60 copies plus bounded raw captures. Core optical timing is not the full neural pass.",
+  "reset_repair": {
+    "fixture_run_id": "20261006-174737-fixture-core-dxl07-temporal-depth-motion",
+    "transitions": [
+      {
+        "bridge_copy_serial": 61,
+        "native_depth_supplied": true,
+        "native_motion_supplied": true,
+        "route_reset_requested": true,
+        "route_reset_parameter_read": true,
+        "route_reset_pending": false,
+        "ngx_result": 1,
+        "failures": 0
+      },
+      {
+        "bridge_copy_serial": 240,
+        "native_depth_supplied": false,
+        "native_motion_supplied": false,
+        "route_reset_requested": true,
+        "route_reset_parameter_read": true,
+        "route_reset_pending": false,
+        "ngx_result": 1,
+        "failures": 0
+      },
+      {
+        "bridge_copy_serial": 242,
+        "native_depth_supplied": true,
+        "native_motion_supplied": true,
+        "route_reset_requested": true,
+        "route_reset_parameter_read": true,
+        "route_reset_pending": false,
+        "ngx_result": 1,
+        "failures": 0
+      }
+    ],
+    "gameplay_retested_after_repair": false,
+    "actual_runtime_failure_induced": false
+  },
+  "fingerprints": {
+    "native_gameplay_proxy_sha256": "6177d14dcc7a384ede0de03a054629a56568eddbca70ab57534dbbdf3fc505af",
+    "current_repaired_proxy_sha256": "cce6fb7c30f7c6685b956468cefc637ce08ce7c2a8095da97bda5163dae9629d",
+    "taa_shader": "e8d58b595587b316",
+    "inspection_image_sha256": "c49ee4033cccc060204f7bedc74a89be77bdd80d2892bfdb60fd21c3d5d9926f"
+  },
+  "remaining": [
+    "Depth effect on neural output unproven",
+    "Exact subpixel depth alignment to display unresolved",
+    "Earlier engine Quit crash not reproduced here; cause unresolved",
+    "Long sessions, resize, HUD/transparency and other scenes not validated"
+  ],
+  "real_steam_install_modified": false,
+  "enb_work_performed": false,
+  "figure_notice": "Display at capture point | device depth | UV motion | pre-TAA color. Captured before neural processing; not an ON/OFF comparison."
+}

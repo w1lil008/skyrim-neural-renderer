@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="138" viewBox="0 0 900 138" role="img" aria-labelledby="title desc">
+<title id="title">Skyrim Neural Renderer</title><desc id="desc">A blue wireframe mountain beside the project name and experimental prototype label.</desc>
+<rect width="900" height="138" rx="14" fill="#0d1117"/>
+<g fill="none" stroke="#58a6ff" stroke-width="2.2" stroke-linejoin="round"><path d="M26 101 70 32 101 72 122 52 162 101Z"/><path d="m26 101 75-29 21-20M70 32l10 69m21-29 61 29M70 32l-14 69m45-29 21 29"/></g>
+<g fill="#79c0ff"><circle cx="70" cy="32" r="4"/><circle cx="101" cy="72" r="4"/><circle cx="26" cy="101" r="3.5"/><circle cx="122" cy="52" r="3.5"/><circle cx="162" cy="101" r="3.5"/></g>
+<text x="194" y="65" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="650">Skyrim Neural Renderer</text>
+<text x="196" y="96" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing=".5">D3D11 DEPTH + MOTION  /  EXPERIMENTAL PROTOTYPE</text>
+</svg>

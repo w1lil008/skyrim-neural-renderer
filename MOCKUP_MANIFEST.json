@@ -1,0 +1,58 @@
+{
+  "project": "Skyrim Neural Renderer",
+  "publication_state": "local mock-up only",
+  "prepared_date": "2026-10-07",
+  "contents": "documentation, preview and gameplay inspection image; no executable implementation",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 39,
+      "sha256": "8be99e426b20c4c940390b81e2f64b72c1d45202dda3ab56162a91aa14c8bcf4"
+    },
+    {
+      "path": "assets/helgen-buffer-inspection.png",
+      "bytes": 12612542,
+      "sha256": "c49ee4033cccc060204f7bedc74a89be77bdd80d2892bfdb60fd21c3d5d9926f"
+    },
+    {
+      "path": "assets/project-mark.svg",
+      "bytes": 1048,
+      "sha256": "6933b898126352a33317989d976fd49dec9049b727b38b1e7188f27f7ea96986"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 3356,
+      "sha256": "caebd4b1ac7bdd1f2271ba74793eca16f9072f3aa0e14e9351f3083d632e0a1b"
+    },
+    {
+      "path": "docs/evidence/verification.json",
+      "bytes": 4608,
+      "sha256": "85daeaf137327be915bd99e12f2b95b070b46d26f69265a2610806e6a9015657"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 4869,
+      "sha256": "ad279bc368ce7dd59b7d8024182e66224136a8c5d076ea640cdce26253c0dfea"
+    },
+    {
+      "path": "index.html",
+      "bytes": 77300,
+      "sha256": "ead27c72f53808dd40dcea1aa46ed17b00d616f1596bcf57f2baab9843d6fbb6"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1944,
+      "sha256": "48d3e2aa135af515fb06557a488e5f357fde5f4436552d6912580ae609fbcaa0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5539,
+      "sha256": "0aa4eaa413152b6c52e7753cc3d38b8605732494aa940f508468a0705ab59a42"
+    },
+    {
+      "path": "releases/v0.1.0-prototype.md",
+      "bytes": 2841,
+      "sha256": "cf606b4a6c452ba6ebfe6e572e74b9ae62c25a7197c1efee4cb21bc7648860cb"
+    }
+  ]
+}
