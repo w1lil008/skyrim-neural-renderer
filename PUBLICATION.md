@@ -1,9 +1,9 @@
-# Publication mock-up
+#
 
-Prepared locally on **7 October 2026**. No repository was created, no commit was pushed, and no release was published.
+Prepared locally on **7 October 2026**.
 
 **Provisional repository name:** `skyrim-neural-renderer`  
-**Owner in the preview:** `YOUR-USERNAME`  
+**Owner in the preview:** `w1lil008`  
 **Proposed tag:** `v0.1.0-prototype`  
 **Release state:** draft pre-release
 
@@ -21,7 +21,7 @@ The preview includes working README, Releases and Validation views, local docume
 
 ## Publication scope
 
-The package is a documentation/visual draft. It contains no Skyrim executable or game data, vendor runtime DLL, built proxy DLL, saves, copied dependency checkout, raw game logs or compiler bundle. The implementation and reference package remain in the original workspace.
+The package is a documentation/visual draft. It contains no Skyrim executable or game data, vendor runtime DLL, built proxy DLL, saves, copied dependency checkout, raw game logs or compiler bundle. The implementation and reference package remain in the original workspace (subject to development timeline).
 
 No license for the project's own code has been selected by this mock-up. The pinned DXL source has an AGPL-3.0 license file and its components carry separate notices; the local draft does not make a redistribution claim for those dependencies. A source release would also need portable paths and an explicit, reviewed file export.
 
